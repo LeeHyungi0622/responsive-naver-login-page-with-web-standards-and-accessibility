@@ -28,3 +28,20 @@
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5)
 
 </section>
+
+# **레이아웃 설계**
+
+Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 요소 배치도 작성
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210228_naver_login_page_layout_design.png">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < 네이버 로그인 화면 레이아웃 설계 >
+        </td>
+    </tr>
+</table>
