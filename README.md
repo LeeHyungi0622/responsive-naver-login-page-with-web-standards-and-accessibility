@@ -2,7 +2,9 @@
 
 # 반응형 네이버 로그인 페이지 구현 및 웹 표준 & 접근성에 기반한 취약점 분석 및 개선안 적용
 
-<img src="./img/210228_web_accessibility_img.png" alt="프로젝트 intro 이미지" width=600 height=350>
+<div align="center">
+    <img src="./img/210228_web_accessibility_img.png" alt="프로젝트 intro 이미지" width=600 height=350>
+</div>
 
 <section>
     <h2><b>Project Status</b></h2>
@@ -100,10 +102,10 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 <table>
     <tr>
         <td>
-            <img src="./img/210228_label_css.png">
+            <img src="./img/210228_label_css.png" alt="기존 label CSS 속성 캡쳐">
         </td>
         <td>
-            <img src="./img/210228_input_tag_css.png">
+            <img src="./img/210228_input_tag_css.png" alt="기존 input 태그의 CSS 속성 캡쳐">
         </td>
     </tr>
     <tr>
@@ -141,10 +143,35 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 
 <section>
 
-</section>
-
 # **네이버 로그인 페이지 기본 레이아웃 작성하기**
 
 <img src="./img/210228_basic_login_form.png">
+
+</section>
+
+<section>
+
+# **기본 레이아웃에 스타일 적용하기**
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210228_style-img1.png" alt="스타일 적용 캡쳐 이미지 1" width=700 height=450>
+        </td>
+        <td>
+            <img src="./img/210228_style-img2.png" alt="스타일 적용 캡쳐 이미지 2" width=700 height=450>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./img/210228_style-img3.png" alt="스타일 적용 캡쳐 이미지 3" width=700 height=450>
+        </td>
+        <td>
+            <img src="./img/210228_style-img4.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+        </td>
+    </tr>
+</table>
+
+</section>
 
 </section>
