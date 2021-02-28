@@ -109,3 +109,22 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 </section>
 
 </section>
+
+<section>
+
+# **BEM 방식으로 element의 클래스 이름 작성하기**
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210228_class_name.png">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < BEM 방식으로 클래스 이름 정하기 >
+        </td>
+    </tr>
+</table>
+
+</section>
