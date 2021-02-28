@@ -10,6 +10,58 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__lang-container">
+                <select name="language" id="language" class="header__lang-select-list">
+                    <option value="ko_KR">한국어</option>
+                    <option value="en_US">English</option>
+                    <option value="zh-Hans_CN">中文(简体)</option>
+                    <option value="zh-Hant_TW">中文(台灣)</option>
+                </select>
+            </div>
+            <h1 class="header__logo-container">
+                <a href="#" class="header__logo-link">
+                    <img src="./img/logo_img.svg" alt="" class="header__logo-img">
+                </a>
+            </h1>
+        </header>
+        <main>
+            <form action="" method="POST" class="form-login">
+                <fieldset>
+                    <legend>로그인 폼</legend>
+                    <div class="form-login__id-container">
+                        <input type="text" class="form-login__id-input" id="form-login__id-input">
+                        <label for="form-login__id-input" class="form-login__id-label">아이디</label>
+                        <div class="form-login__id-error-message" aria-live="assertive">아이디를 입력해주세요.</div>
+                    </div>
+                    <div class="form-login__password-container">
+                        <input type="password" class="form-login__password-input" id="form-login__password-input">
+                        <label for="form-login__password-input" class="form-login__password-label">비밀번호</label>
+                        <div class="form-login__password-error-message">비밀번호를 입력해주세요.</div>
+                    </div>
+                    <div class="form-login__maintain-check-and-ip-security-container">
+                        <div class="form-login__maintain-check-container">
+                            <span>
+                                <input type="checkbox" class="form-login__maintain-check-input" id="form-login__maintain-check-input">
+                                <label for="form-login__maintain-check-input" class="form-login__maintain-check-label">로그인 상태 유지</label>
+                            </span>
+                        </div>
+                        <div class="form-login__ip-security-container">
+                            <span class="form-login__ip-guide-container">
+                                <a href="#" class="form-login__ip-guide-link"><span>IP</span><span>보안</span></a>
+                            </span>
+                            <span class="form-login__ip-security-check-container">
+                                <input type="checkbox" class="form-login__ip-security-check-input" id="form-login__ip-security-check-input">
+                                <label for="form-login__ip-security-check-input" class="form-login__ip-security-check-label">OFF</label>                            
+                            </span>
+                        </div>
+                    </div>
+                    <input type="button" role="button" class="form-login__button" value="로그인">
+                </fieldset>
+            </form>
+        </main>
+    </div>
 
 </body>
 

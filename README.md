@@ -2,6 +2,8 @@
 
 # 반응형 네이버 로그인 페이지 구현 및 웹 표준 & 접근성에 기반한 취약점 분석 및 개선안 적용
 
+<img src="./img/210228_web_accessibility_img.png" alt="프로젝트 intro 이미지" width=600 height=350>
+
 <section>
     <h2><b>Project Status</b></h2>
 
@@ -31,6 +33,10 @@
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10)
 
+**(7) Issue12) 네이버 로그인 페이지 기본 레이아웃 작성하기**
+
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12)
+
 </section>
 
 # **레이아웃 설계**
@@ -40,7 +46,7 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 <table>
     <tr>
         <td>
-            <img src="./img/210228_naver_login_page_layout_design.png">
+            <img src="./img/210228_naver_login_page_layout_design.png" alt="네이버 로그인 화면 레이아웃 설계">
         </td>
     </tr>
     <tr>
@@ -130,5 +136,15 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
         </td>
     </tr>
 </table>
+
+</section>
+
+<section>
+
+</section>
+
+# **네이버 로그인 페이지 기본 레이아웃 작성하기**
+
+<img src="./img/210228_basic_login_form.png">
 
 </section>
