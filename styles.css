@@ -32,7 +32,9 @@ legend {
 .header {
     position: relative;
     box-sizing: border-box;
+    width: 465px;
     padding: 106px 0 53px;
+    margin: 0 auto;
 }
 
 h1.header__logo-container {
@@ -185,11 +187,6 @@ input.form-login__button {
 
 
 /* customized 이미지로 체크박스 표시 */
-
-
-/* input[type=checkbox] {
-            display: none;
-        } */
 
 .form-login__maintain-check-input,
 .form-login__ip-security-check-input {
