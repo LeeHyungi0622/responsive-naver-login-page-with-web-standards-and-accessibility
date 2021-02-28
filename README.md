@@ -31,6 +31,10 @@
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10)
 
+**(7) Issue12) 네이버 로그인 페이지 기본 레이아웃 작성하기**
+
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12)
+
 </section>
 
 # **레이아웃 설계**
