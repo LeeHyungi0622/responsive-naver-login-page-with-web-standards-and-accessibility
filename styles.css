@@ -160,7 +160,7 @@ input.form-login__button {
 
 .form-login__maintain-check-label {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: -1px;
     height: 35px;
     width: 136px;
@@ -168,16 +168,32 @@ input.form-login__button {
     background: url(./img/checkbox_unchecked.svg) no-repeat;
 }
 
-.form-login__ip-security-container {
+.form-login__maintain-check-des {
     position: absolute;
-    top: 0;
-    right: -1px;
+    top: 3px;
+    left: 30px;
+    font-size: 15px;
+}
+
+.form-login__ip-security-container {
     display: inline-block;
-    width: 80px;
+    width: 100px;
     height: 35px;
     text-align: right;
     line-height: 35px;
     font-size: 15px;
+}
+
+.form-login__ip-guide-container {
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.form-login__ip-security-check-label {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .form-login__ip-security-container a {
@@ -188,9 +204,28 @@ input.form-login__button {
 
 /* customized 이미지로 체크박스 표시 */
 
-.form-login__maintain-check-input,
+.form-login__maintain-check-input {
+    position: absolute;
+    top: 2px;
+    left: -5px;
+    width: 24px;
+    height: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+}
+
 .form-login__ip-security-check-input {
-    display: none;
+    position: absolute;
+    top: 0;
+    right: -2px;
+    width: 30px;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
 }
 
 .form-login__maintain-check-input:checked+label {
@@ -198,9 +233,26 @@ input.form-login__button {
 }
 
 .form-login__ip-security-check-label {
-    font-size: 16px;
-    font-weight: 700;
+    width: 30px;
+    text-align: left;
+}
+
+.form-login__ip-security-check-label>span {
+    width: 33px;
+}
+
+.form-login__ip-security-check-label>span::after {
+    content: ' OFF';
     color: #9ba1a3;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.form-login__ip-security-check-input:checked+.form-login__ip-security-check-label span::after {
+    content: ' ON';
+    color: rgba(3, 199, 90, 1);
+    font-weight: 700;
+    font-size: 15px;
 }
 
 
