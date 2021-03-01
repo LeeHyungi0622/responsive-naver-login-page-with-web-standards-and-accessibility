@@ -67,9 +67,9 @@ h1.header__logo-container {
 
 /* 로고 */
 
-.header .header__logo-link {
+.header__logo-link {
     display: block;
-    width: 231px;
+    width: 230px;
     height: 44px;
     margin: 0 auto;
 }
@@ -148,7 +148,7 @@ main .container {
 
 /* 로그인 버튼 */
 
-input.form-login__button {
+.form-login__button {
     background-color: #03C75A;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -293,4 +293,48 @@ input.form-login__button {
 
 .form-login__id-error-message {
     margin-bottom: 8px;
+}
+
+
+/* For below 768px screen width(모바일 대응) */
+
+@media screen and (max-width: 768px) {
+    .form-login__id-input,
+    .form-login__password-input,
+    .form-login__button {
+        width: 290px;
+    }
+    /* 모바일 화면에서는 IP보안 선택란이 보이지 않게 처리한다. */
+    .form-login__ip-security-container {
+        display: none;
+    }
+    .form-login__id-container,
+    .form-login__password-container,
+    .form-login__maintain-check-and-ip-security-container,
+    .form-login__button-container {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .form-login__maintain-check-and-ip-security-container {
+        margin-bottom: 5px;
+    }
+    /* 로그인 페이지 로고 사이즈 조정 */
+    .header__logo-link {
+        display: block;
+        width: 165px;
+        height: 32px;
+        margin: 0 auto;
+    }
+    .header__logo-img {
+        width: 165px;
+        height: 32px;
+    }
+    .header {
+        width: 465px;
+        padding: 106px 0 35px;
+    }
+    /* 언어 선택 dropdown list의 우측 좌표 변경 */
+    .header__lang-container {
+        right: 90px;
+    }
 }
