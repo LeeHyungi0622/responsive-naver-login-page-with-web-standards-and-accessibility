@@ -47,6 +47,10 @@
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5)
 
+**(10) Issue19) 반응형 웹 페이지 구현하기**
+
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/19](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/19)
+
 </section>
 
 # **레이아웃 설계**
@@ -226,6 +230,31 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
         </td>
         <td align="center">
             < input 태그(아이디 & 비밀번호 입력)가 valid state인 경우 >
+        </td>
+    </tr>
+</table>
+
+</section>
+
+<section>
+
+# **반응형 웹 페이지 구현(Responsive web page)**
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210301_web_responsive_login_page.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=350>
+        </td>
+        <td>
+            <img src="./img/210301_mobile_responsive_login_page.png" alt="스타일 적용 캡쳐 이미지 4" width=500 height=350>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < 데스크탑(너비가 769px이상) 대응 >
+        </td>
+        <td align="center">
+            < 모바일(너비가 768px이하) 대응 >
         </td>
     </tr>
 </table>
