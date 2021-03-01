@@ -232,4 +232,29 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 
 </section>
 
+<section>
+
+# **반응형 웹 페이지 구현(Responsive web page)**
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210301_web_responsive_login_page.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=350>
+        </td>
+        <td>
+            <img src="./img/210301_mobile_responsive_login_page.png" alt="스타일 적용 캡쳐 이미지 4" width=500 height=350>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < 데스크탑(너비가 769px이상) 대응 >
+        </td>
+        <td align="center">
+            < 모바일(너비가 768px이하) 대응 >
+        </td>
+    </tr>
+</table>
+
+</section>
+
 </section>
