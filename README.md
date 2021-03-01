@@ -27,17 +27,25 @@
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/4](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/4)
 
-**(5) Issue5) 개선안 3을 위한 CSS 이벤트 처리관련 조사하기**
-
-→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5)
-
-**(6) Issue10) Initial project setup**
+**(5) Issue10) Initial project setup**
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/10)
 
-**(7) Issue12) 네이버 로그인 페이지 기본 레이아웃 작성하기**
+**(6) Issue12) 네이버 로그인 페이지 기본 레이아웃 작성하기**
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/12)
+
+**(7) Issue14) 작성한 기본 레이아웃에 스타일 적용시키기**
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/14](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/14)
+
+🗓️ 2021.03.01(Mon)
+
+**(8) Issue16) 로그인 상태 유지 및 IP 보안 ON/OFF 체크박스 수정하기**
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/16](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/16)
+
+**(9) Issue5) 개선안 3을 위한 CSS 이벤트 처리관련 조사 및 구현**
+
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5)
 
 </section>
 
@@ -156,18 +164,68 @@ Contents의 논리적 흐름을 나타내는 논리 구조도와 레이아웃 �
 <table>
     <tr>
         <td>
-            <img src="./img/210228_style-img1.png" alt="스타일 적용 캡쳐 이미지 1" width=700 height=450>
+            <img src="./img/210228_style-img1.png" alt="스타일 적용 캡쳐 이미지 1" width=700 height=400>
         </td>
         <td>
-            <img src="./img/210228_style-img2.png" alt="스타일 적용 캡쳐 이미지 2" width=700 height=450>
+            <img src="./img/210228_style-img2.png" alt="스타일 적용 캡쳐 이미지 2" width=700 height=400>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./img/210228_style-img3.png" alt="스타일 적용 캡쳐 이미지 3" width=700 height=450>
+            <img src="./img/210228_style-img3.png" alt="스타일 적용 캡쳐 이미지 3" width=700 height=400>
         </td>
         <td>
-            <img src="./img/210228_style-img4.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+            <img src="./img/210228_style-img4.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=400>
+        </td>
+    </tr>
+</table>
+
+</section>
+
+<section>
+
+# **개선안 3) 하나의 input tag에는 하나의 <ins>의미있는</ins> label을 mapping 시켜주도록 개선한다.**
+
+<ins><b>입력 태그에 CSS 이벤트 구현</b></ins>
+
+기존에는 label 태그를 input 태그의 뒤에 z-index 속성을 사용하여 보이지 않도록 처리하였다.
+개선한 부분은 input 태그의 placeholder에 표시한 hint 텍스트를 label 태그에 표시하도록 수정하였다.
+
+표시된 label 태그는 input 태그가 focus 상태일 때와 valid 상태일 때, out-focusing 상태일 때 보다 글자 크기를 작게 하여 좌측 상단에 배치될 수 있도록 이벤트 처리하였다.
+
+이렇게 되면 기존에는 경우에 따라 label의 텍스트와 placeholder의 텍스트 모두 스크린 리더가 읽어주는 경우가 생기는데 이를 해결할 수 있으며, 태그와 placeholder의 역할을 분리해야 되는 경우(입력해야 되는 데이터의 format을 알려줘야 하는 경우)를 해결할 수 있다고 생각한다.
+
+<table>
+    <tr>
+        <td>
+            <img src="./img/210301_login_form_img.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+        </td>
+        <td>
+            <img src="./img/210301_login_id_focus_img.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < 초기 로그인 페이지 상태 >
+        </td>
+        <td align="center">
+            < input 태그(아이디 입력)에 focus가 된 경우 >
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./img/210301_login_pwd_focus_img.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+        </td>
+        <td>
+            <img src="./img/210301_login_valid_status_img.png" alt="스타일 적용 캡쳐 이미지 4" width=700 height=450>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            < input 태그(비밀번호 입력)에 focus가 된 경우 >
+        </td>
+        <td align="center">
+            < input 태그(아이디 & 비밀번호 입력)가 valid state인 경우 >
         </td>
     </tr>
 </table>
