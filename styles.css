@@ -170,7 +170,7 @@ input.form-login__button {
 
 .form-login__maintain-check-des {
     position: absolute;
-    top: -12px;
+    top: 3px;
     left: 30px;
     font-size: 15px;
 }
