@@ -47,6 +47,10 @@
 
 → [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/5)
 
+**(10) Issue19) 반응형 웹 페이지 구현하기**
+
+→ [https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/19](https://github.com/LeeHyungi0622/responsive-naver-login-page-with-web-standards-and-accessibility/issues/19)
+
 </section>
 
 # **레이아웃 설계**
